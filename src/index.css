@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 rounded-full font-medium transition-all duration-300;
+  }
+  .btn-color-1 {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+  .btn-color-2 {
+    @apply border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white;
+  }
+  .icon {
+    @apply w-8 h-8 cursor-pointer transition-transform hover:scale-110;
+  }
+  .arrow {
+    @apply absolute bottom-10 left-1/2 transform -translate-x-1/2 w-10 h-10 animate-bounce cursor-pointer;
+  }
+}
