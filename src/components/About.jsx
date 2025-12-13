@@ -54,21 +54,21 @@ const About = ({ scrollToSection }) => {
       institution: "B.V.C Engineering College (Affiliated with JNTUK)",
       location: "Odalarevu",
       score: "CGPA: 6.3",
-      period: "2020 - 2024"
+      period: ""
     },
     {
       degree: "Higher Secondary (Intermediate)",
       institution: "Vidyanidhi Junior College",
       location: "Tatipaka",
       score: "Percentage: 67%",
-      period: "2018 - 2020"
+      period: ""
     },
     {
       degree: "High School",
       institution: "Z.P.H School",
       location: "Kesanapalli",
       score: "CGPA: 9.3",
-      period: "2017 - 2018"
+      period: ""
     }
   ];
 
@@ -238,3 +238,4 @@ const About = ({ scrollToSection }) => {
 };
 
 export default About;
+
